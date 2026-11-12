@@ -1,0 +1,9 @@
+{
+ "text": "{\"fields\": [{\"field\": \"invoice_number\", \"value\": \"INV-1043\", \"line\": 3}, {\"field\": \"invoice_date\", \"value\": \"08 Nov 2026\", \"line\": 5}, {\"field\": \"due_date\", \"value\": \"08 Nov 2026\", \"line\": 7}, {\"field\": \"vendor_name\", \"value\": \"Acme Supply Co.\", \"line\": 0}, {\"field\": \"vendor_tax_id\", \"value\": \"84-1234567\", \"line\": 6}, {\"field\": \"po_number\", \"value\": \"PO-4410\", \"line\": 10}, {\"field\": \"currency\", \"value\": \"USD\", \"line\": 23}, {\"field\": \"subtotal\", \"value\": \"4,900.00\", \"line\": 21}, {\"field\": \"tax\", \"value\": \"392.00\", \"line\": 22}, {\"field\": \"freight\", \"value\": null, \"line\": null}, {\"field\": \"total\", \"value\": \"5,292.00\", \"line\": 23}, {\"field\": \"payment_terms\", \"value\": \"Due on receipt\", \"line\": 9}, {\"field\": \"remit_iban\", \"value\": \"GB39LOYD60161311223344\", \"line\": 27}, {\"field\": \"remit_account_number\", \"value\": null, \"line\": null}, {\"field\": \"remit_routing_number\", \"value\": null, \"line\": null}, {\"field\": \"remit_bank_name\", \"value\": \"Lloyds\", \"line\": 25}]}",
+ "usage": {
+  "input_tokens": 859,
+  "output_tokens": 404,
+  "cache_read_input_tokens": 0
+ },
+ "model": "gemini-3.5-flash-lite"
+}

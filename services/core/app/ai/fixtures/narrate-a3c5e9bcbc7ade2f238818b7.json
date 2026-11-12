@@ -1,0 +1,9 @@
+{
+ "text": "This invoice from Acme Supply Co., numbered INV-1109, is for $1,981.80. A review found that the visible total differs from the hidden text layer, indicating possible tampering. The invoice is currently on hold while we contact the vendor.",
+ "usage": {
+  "input_tokens": 209,
+  "output_tokens": 57,
+  "cache_read_input_tokens": 0
+ },
+ "model": "gemini-3.5-flash-lite"
+}

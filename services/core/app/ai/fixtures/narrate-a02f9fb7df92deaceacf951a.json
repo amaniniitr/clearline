@@ -1,0 +1,9 @@
+{
+ "text": "This is invoice number SF/26-27/0412 from Shakti Fasteners Pvt Ltd for \u20b911,56,400.00. All twenty-four checks were successfully completed with no issues found. The full amount of \u20b911,56,400.00 is now approved and safe to pay.",
+ "usage": {
+  "input_tokens": 205,
+  "output_tokens": 75,
+  "cache_read_input_tokens": 0
+ },
+ "model": "gemini-3.5-flash-lite"
+}

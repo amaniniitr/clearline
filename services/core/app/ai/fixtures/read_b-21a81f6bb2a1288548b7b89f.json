@@ -1,0 +1,9 @@
+{
+ "text": "{\n  \"fields\": [\n    {\n      \"field\": \"invoice_number\",\n      \"value\": \"INV-1042\",\n      \"line\": 3\n    },\n    {\n      \"field\": \"invoice_date\",\n      \"value\": \"07 Nov 2026\",\n      \"line\": 5\n    },\n    {\n      \"field\": \"due_date\",\n      \"value\": \"07 Dec 2026\",\n      \"line\": 7\n    },\n    {\n      \"field\": \"vendor_name\",\n      \"value\": \"Acme Supply Co.\",\n      \"line\": 0\n    },\n    {\n      \"field\": \"vendor_tax_id\",\n      \"value\": \"84-1234567\",\n      \"line\": 6\n    },\n    {\n      \"field\": \"po_number\",\n      \"value\": \"PO-4404\",\n      \"line\": 10\n    },\n    {\n      \"field\": \"currency\",\n      \"value\": \"USD\",\n      \"line\": 29\n    },\n    {\n      \"field\": \"subtotal\",\n      \"value\": \"3,660.00\",\n      \"line\": 27\n    },\n    {\n      \"field\": \"tax\",\n      \"value\": \"292.80\",\n      \"line\": 28\n    },\n    {\n      \"field\": \"freight\",\n      \"value\": null,\n      \"line\": null\n    },\n    {\n      \"field\": \"total\",\n      \"value\": \"3,952.80\",\n      \"line\": 29\n    },\n    {\n      \"field\": \"payment_terms\",\n      \"value\": \"Net 30\",\n      \"line\": 9\n    },\n    {\n      \"field\": \"remit_iban\",\n      \"value\": \"GB29NWBK60161331926819\",\n      \"line\": 33\n    },\n    {\n      \"field\": \"remit_account_number\",\n      \"value\": null,\n      \"line\": null\n    },\n    {\n      \"field\": \"remit_routing_number\",\n      \"value\": null,\n      \"line\": null\n    },\n    {\n      \"field\": \"remit_bank_name\",\n      \"value\": \"NatWest\",\n      \"line\": 31\n    }\n  ]\n}",
+ "usage": {
+  "input_tokens": 917,
+  "output_tokens": 591,
+  "cache_read_input_tokens": 0
+ },
+ "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,9 @@
+{
+ "text": "{\n  \"line_kind\": {\n    \"goods\": 0.98,\n    \"service\": 0.01,\n    \"freight\": 0.0,\n    \"fee\": 0.0,\n    \"discount\": 0.0,\n    \"tax\": 0.01\n  }\n}",
+ "usage": {
+  "input_tokens": 262,
+  "output_tokens": 77,
+  "cache_read_input_tokens": 0
+ },
+ "model": "gemini-3.5-flash-lite"
+}

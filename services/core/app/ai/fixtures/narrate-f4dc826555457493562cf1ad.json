@@ -1,0 +1,9 @@
+{
+ "text": "This is invoice NW-7781 from Northwind Components Ltd for $10,000.00. We checked 22 items, but could not confirm the vendor name from the document and noted a duplicate amount issue. The invoice is marked for review, and a payment of $4,000.00 is currently safe to pay.",
+ "usage": {
+  "input_tokens": 212,
+  "output_tokens": 76,
+  "cache_read_input_tokens": 0
+ },
+ "model": "gemini-3.5-flash-lite"
+}

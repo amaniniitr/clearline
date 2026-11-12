@@ -1,0 +1,9 @@
+{
+ "text": "{\"fields\": [{\"field\": \"invoice_number\", \"value\": \"GX-503\", \"line\": 4}, {\"field\": \"invoice_date\", \"value\": \"08 Nov 2026\", \"line\": 5}, {\"field\": \"due_date\", \"value\": \"08 Dec 2026\", \"line\": 9}, {\"field\": \"vendor_name\", \"value\": \"GLOBEX INDUSTRIAL INC.\", \"line\": 0}, {\"field\": \"vendor_tax_id\", \"value\": \"45-6781230\", \"line\": 3}, {\"field\": \"po_number\", \"value\": \"PO-4430\", \"line\": 6}, {\"field\": \"currency\", \"value\": \"USD\", \"line\": 15}, {\"field\": \"subtotal\", \"value\": \"4,500.00\", \"line\": 14}, {\"field\": \"tax\", \"value\": null, \"line\": null}, {\"field\": \"freight\", \"value\": null, \"line\": null}, {\"field\": \"total\", \"value\": \"4,500.00\", \"line\": 15}, {\"field\": \"payment_terms\", \"value\": \"Net 30\", \"line\": 7}, {\"field\": \"remit_iban\", \"value\": \"GB07HBUK60161340051512\", \"line\": 16}, {\"field\": \"remit_account_number\", \"value\": null, \"line\": null}, {\"field\": \"remit_routing_number\", \"value\": null, \"line\": null}, {\"field\": \"remit_bank_name\", \"value\": \"HSBC UK\", \"line\": 16}]}",
+ "usage": {
+  "input_tokens": 737,
+  "output_tokens": 397,
+  "cache_read_input_tokens": 0
+ },
+ "model": "gemini-3.5-flash-lite"
+}

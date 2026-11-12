@@ -1,0 +1,9 @@
+{
+ "text": "{\"fields\": [{\"field\": \"invoice_number\", \"value\": \"SF/26-27/0412\", \"line\": 4}, {\"field\": \"invoice_date\", \"value\": \"06/11/2026\", \"line\": 4}, {\"field\": \"due_date\", \"value\": \"06/12/2026\", \"line\": 6}, {\"field\": \"vendor_name\", \"value\": \"Shakti Fasteners Pvt Ltd\", \"line\": 1}, {\"field\": \"vendor_tax_id\", \"value\": \"27AAPCS1234K1Z2\", \"line\": 3}, {\"field\": \"po_number\", \"value\": \"PO-4450\", \"line\": 5}, {\"field\": \"currency\", \"value\": \"\u20b9\", \"line\": 11}, {\"field\": \"subtotal\", \"value\": \"9,80,000.00\", \"line\": 15}, {\"field\": \"tax\", \"value\": \"1,76,400.00\", \"line\": 18}, {\"field\": \"freight\", \"value\": null, \"line\": null}, {\"field\": \"total\", \"value\": \"11,56,400.00\", \"line\": 19}, {\"field\": \"payment_terms\", \"value\": null, \"line\": null}, {\"field\": \"remit_iban\", \"value\": null, \"line\": null}, {\"field\": \"remit_account_number\", \"value\": \"50200012345678\", \"line\": 21}, {\"field\": \"remit_routing_number\", \"value\": \"HDFC0000240\", \"line\": 21}, {\"field\": \"remit_bank_name\", \"value\": \"HDFC Bank\", \"line\": 21}]}",
+ "usage": {
+  "input_tokens": 1007,
+  "output_tokens": 432,
+  "cache_read_input_tokens": 0
+ },
+ "model": "gemini-3.5-flash-lite"
+}

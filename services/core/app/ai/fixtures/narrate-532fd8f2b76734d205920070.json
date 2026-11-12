@@ -1,0 +1,9 @@
+{
+ "text": "This invoice from Initech Office Supplies LLC is for 1,512.00 $. It was checked and found to be a duplicate, with mismatched currency, an exceeded purchase order limit, and billed items not received. The invoice has been rejected with 0.00 $ owed, and the drafted notice will be sent to the vendor.",
+ "usage": {
+  "input_tokens": 260,
+  "output_tokens": 71,
+  "cache_read_input_tokens": 0
+ },
+ "model": "gemini-3.5-flash-lite"
+}

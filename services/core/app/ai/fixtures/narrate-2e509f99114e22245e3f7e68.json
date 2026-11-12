@@ -1,0 +1,9 @@
+{
+ "text": "Invoice IN-2291 from Initech Office Supplies LLC is for $2,767.58 and was placed on hold. A review found that the visible total and bank details differ from the hidden text in the PDF file. The payment is currently stopped while you contact the vendor to address the conflicting details.",
+ "usage": {
+  "input_tokens": 220,
+  "output_tokens": 66,
+  "cache_read_input_tokens": 0
+ },
+ "model": "gemini-3.5-flash-lite"
+}

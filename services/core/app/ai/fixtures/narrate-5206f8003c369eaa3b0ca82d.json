@@ -1,0 +1,9 @@
+{
+ "text": "Invoice 42 from Initech Office Supplies LLC for $1,512.00 has been rejected. A review found that the invoice is a duplicate of INV-0042, exceeds the purchase order limit, and bills for unreceived items. We will send the drafted notice to the vendor, and no payment will be made.",
+ "usage": {
+  "input_tokens": 260,
+  "output_tokens": 71,
+  "cache_read_input_tokens": 0
+ },
+ "model": "gemini-3.5-flash-lite"
+}

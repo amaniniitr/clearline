@@ -1,0 +1,9 @@
+{
+ "text": "{\"document_type\":\"invoice\",\"invoice_number\":\"GX-503\",\"invoice_date\":\"08 Nov 2026\",\"due_date\":\"08 Dec 2026\",\"vendor_name\":\"GLOBEX INDUSTRIAL INC.\",\"vendor_tax_id\":\"45-6781230\",\"po_number\":\"PO-4430\",\"currency\":\"USD\",\"subtotal\":\"4,500.00\",\"tax\":null,\"tax_rate\":null,\"freight\":null,\"total\":\"4,500.00\",\"payment_terms\":\"Net 30\",\"remit_iban\":\"GB07HBUK60161340051512\",\"remit_account_number\":null,\"remit_routing_number\":null,\"remit_bank_name\":\"HSBC UK\",\"service_period\":null,\"original_invoice_ref\":null,\"notes\":null,\"tax_mode\":\"none\",\"lines\":[{\"description\":\"Conveyor belt replacement section 2m\",\"sku\":\"GX-BELT\",\"qty\":\"30\",\"uom\":\"EA\",\"unit_price\":\"150.00\",\"amount\":\"4,500.00\",\"quote\":\"1 GX-BELT Conveyor belt replacement section 2m 30 EA 150.00 4,500.00\"}],\"field_quotes\":[{\"field\":\"document_type\",\"quote\":\"TAX INVOICE\"},{\"field\":\"invoice_number\",\"quote\":\"Bill No.: GX-503\"},{\"field\":\"invoice_date\",\"quote\":\"Bill Date: 08 Nov 2026\"},{\"field\":\"due_date\",\"quote\":\"Due 08\\nDec 2026\"},{\"field\":\"vendor_name\",\"quote\":\"GLOBEX INDUSTRIAL INC.\"},{\"field\":\"vendor_tax_id\",\"quote\":\"EIN 45-6781230\"},{\"field\":\"po_number\",\"quote\":\"Order Ref: PO-4430\"},{\"field\":\"currency\",\"quote\":\"Amount Payable (USD)\"},{\"field\":\"subtotal\",\"quote\":\"Sub Total 4,500.00\"},{\"field\":\"total\",\"quote\":\"Amount Payable (USD) 4,500.00\"},{\"field\":\"payment_terms\",\"quote\":\"Terms: Net 30\"},{\"field\":\"remit_iban\",\"quote\":\"IBAN: GB07HBUK60161340051512\"},{\"field\":\"remit_bank_name\",\"quote\":\"Bank: HSBC UK\"}]}",
+ "usage": {
+  "input_tokens": 1934,
+  "output_tokens": 548,
+  "cache_read_input_tokens": 0
+ },
+ "model": "gemini-3.8-flash"
+}

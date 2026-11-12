@@ -1,0 +1,9 @@
+{
+ "text": "This is an invoice from Initech Office Supplies LLC for $584.55 that is currently on hold. It was checked against 23 items and found to be missing an invoice number. We are sending a drafted email to the vendor to ask for the missing invoice number.",
+ "usage": {
+  "input_tokens": 185,
+  "output_tokens": 58,
+  "cache_read_input_tokens": 0
+ },
+ "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,9 @@
+{
+ "text": "This invoice from Acme Supply Co., numbered INV-1108, is for a total of $1,198.80. A review of the document found that the visible total differs from the PDF's hidden text layer, indicating possible tampering. The invoice is currently on hold, and you should contact Acme Supply Co. to resolve the issue.",
+ "usage": {
+  "input_tokens": 209,
+  "output_tokens": 74,
+  "cache_read_input_tokens": 0
+ },
+ "model": "gemini-3.5-flash-lite"
+}

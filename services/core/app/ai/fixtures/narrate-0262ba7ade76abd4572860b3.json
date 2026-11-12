@@ -1,0 +1,9 @@
+{
+ "text": "This is invoice SF/26-27/0412 from Shakti Fasteners Pvt Ltd for \u20b91,156,400.00. It passed 23 checks but requires controller sign-off because the amount exceeds the standard approval limit. Since the amount is owed and safe to pay, we will proceed with the payment of \u20b91,156,400.00 once the sign-off is complete.",
+ "usage": {
+  "input_tokens": 242,
+  "output_tokens": 95,
+  "cache_read_input_tokens": 0
+ },
+ "model": "gemini-3.5-flash-lite"
+}

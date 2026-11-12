@@ -1,0 +1,9 @@
+{
+ "text": "Invoice GX-503 from Globex Industrial Inc. is for $4,500.00. \n\nA review found that paying the full amount would exceed the $15,000.00 purchase order limit by $1,500.00. \n\nWe will pay $3,000.00 now and ask procurement to amend purchase order PO-4430 for the remaining $1,500.00.",
+ "usage": {
+  "input_tokens": 245,
+  "output_tokens": 102,
+  "cache_read_input_tokens": 0
+ },
+ "model": "gemini-3.5-flash-lite"
+}

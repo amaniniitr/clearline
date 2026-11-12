@@ -1,0 +1,9 @@
+{
+ "text": "{\"document_type\":\"statement\",\"invoice_number\":null,\"invoice_date\":\"09 Nov 2026\",\"due_date\":null,\"vendor_name\":\"northwind components\",\"vendor_tax_id\":null,\"po_number\":null,\"currency\":\"USD\",\"subtotal\":null,\"tax\":null,\"tax_rate\":null,\"freight\":null,\"total\":\"10,000.00\",\"payment_terms\":null,\"remit_iban\":null,\"remit_account_number\":null,\"remit_routing_number\":null,\"remit_bank_name\":null,\"service_period\":null,\"original_invoice_ref\":null,\"notes\":\"This statement is for information only. Please do not pay from this statement.\",\"tax_mode\":null,\"lines\":[{\"description\":\"Invoice\",\"sku\":\"NW-7702\",\"qty\":null,\"uom\":null,\"unit_price\":null,\"amount\":\"5,600.00\",\"quote\":\"NW-7702 Invoice 5,600.00 0.00 Paid\"},{\"description\":\"Invoice\",\"sku\":\"NW-7781\",\"qty\":null,\"uom\":null,\"unit_price\":null,\"amount\":\"10,000.00\",\"quote\":\"NW-7781 Invoice 10,000.00 10,000.00 Open\"}],\"field_quotes\":[{\"field\":\"document_type\",\"quote\":\"STATEMENT OF ACCOUNT\"},{\"field\":\"vendor_name\",\"quote\":\"northwind components\"},{\"field\":\"invoice_date\",\"quote\":\"09 Nov 2026\"},{\"field\":\"currency\",\"quote\":\"USD\"},{\"field\":\"total\",\"quote\":\"10,000.00\"},{\"field\":\"notes\",\"quote\":\"This statement is for information only. Please do not pay from this statement.\"}]}",
+ "usage": {
+  "input_tokens": 1905,
+  "output_tokens": 397,
+  "cache_read_input_tokens": 0
+ },
+ "model": "gemini-3.8-flash"
+}

@@ -1,0 +1,9 @@
+{
+ "text": "{\n  \"fields\": [\n    {\n      \"field\": \"invoice_number\",\n      \"value\": \"NW-7781\",\n      \"line\": 5\n    },\n    {\n      \"field\": \"invoice_date\",\n      \"value\": \"08 Nov 2026\",\n      \"line\": 6\n    },\n    {\n      \"field\": \"due_date\",\n      \"value\": \"23 Dec 2026\",\n      \"line\": 10\n    },\n    {\n      \"field\": \"vendor_name\",\n      \"value\": \"Northwind Components Ltd\",\n      \"line\": 1\n    },\n    {\n      \"field\": \"vendor_tax_id\",\n      \"value\": \"27-5551234\",\n      \"line\": 1\n    },\n    {\n      \"field\": \"po_number\",\n      \"value\": \"PO-4420\",\n      \"line\": 7\n    },\n    {\n      \"field\": \"currency\",\n      \"value\": \"$\",\n      \"line\": 17\n    },\n    {\n      \"field\": \"subtotal\",\n      \"value\": \"10,000.00\",\n      \"line\": 17\n    },\n    {\n      \"field\": \"tax\",\n      \"value\": null,\n      \"line\": null\n    },\n    {\n      \"field\": \"freight\",\n      \"value\": null,\n      \"line\": null\n    },\n    {\n      \"field\": \"total\",\n      \"value\": \"10,000.00\",\n      \"line\": 19\n    },\n    {\n      \"field\": \"payment_terms\",\n      \"value\": \"Net 45\",\n      \"line\": 10\n    },\n    {\n      \"field\": \"remit_iban\",\n      \"value\": \"GB31BARC60161320201555\",\n      \"line\": 21\n    },\n    {\n      \"field\": \"remit_account_number\",\n      \"value\": null,\n      \"line\": null\n    },\n    {\n      \"field\": \"remit_routing_number\",\n      \"value\": null,\n      \"line\": null\n    },\n    {\n      \"field\": \"remit_bank_name\",\n      \"value\": \"Barclays\",\n      \"line\": 21\n    }\n  ]\n}",
+ "usage": {
+  "input_tokens": 708,
+  "output_tokens": 585,
+  "cache_read_input_tokens": 0
+ },
+ "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,9 @@
+{
+ "text": "This is an invoice from Initech Office Supplies LLC for $584.55. A review found that the invoice number is missing and the currency and total could not be confirmed. We are holding the payment until we send a drafted email to ask for the missing invoice number.",
+ "usage": {
+  "input_tokens": 196,
+  "output_tokens": 57,
+  "cache_read_input_tokens": 0
+ },
+ "model": "gemini-3.5-flash-lite"
+}

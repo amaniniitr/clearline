@@ -1,0 +1,9 @@
+{
+ "text": "{\"fields\": [{\"field\": \"invoice_number\", \"value\": \"RM-2026-1187\", \"line\": 4}, {\"field\": \"invoice_date\", \"value\": \"07-11-2026\", \"line\": 6}, {\"field\": \"due_date\", \"value\": \"07-12-2026\", \"line\": 8}, {\"field\": \"vendor_name\", \"value\": \"Rijnmond Industrietechniek\", \"line\": 0}, {\"field\": \"vendor_tax_id\", \"value\": \"NL853746333B01\", \"line\": 1}, {\"field\": \"po_number\", \"value\": null, \"line\": null}, {\"field\": \"currency\", \"value\": \"\\u2020\", \"line\": null}, {\"field\": \"subtotal\", \"value\": null, \"line\": null}, {\"field\": \"tax\", \"value\": \"\\u2020 1.396,78\", \"line\": 27}, {\"field\": \"freight\", \"value\": null, \"line\": null}, {\"field\": \"total\", \"value\": \"\\u2020 8.048,10\", \"line\": 25}, {\"field\": \"payment_terms\", \"value\": \"Betaling binnen 30 dagen\", \"line\": 29}, {\"field\": \"remit_iban\", \"value\": \"NL91ABNA0417164300\", \"line\": 29}, {\"field\": \"remit_account_number\", \"value\": null, \"line\": null}, {\"field\": \"remit_routing_number\", \"value\": null, \"line\": null}, {\"field\": \"remit_bank_name\", \"value\": \"ABN AMRO\", \"line\": 29}]}",
+ "usage": {
+  "input_tokens": 972,
+  "output_tokens": 420,
+  "cache_read_input_tokens": 0
+ },
+ "model": "gemini-3.5-flash-lite"
+}

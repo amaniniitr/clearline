@@ -1,0 +1,9 @@
+{
+ "text": "This invoice is from Initech Office Supplies LLC for $2,767.58. A review found that the billed amount would exceed the approved purchase order limit. The payment is on hold while procurement updates the purchase order.",
+ "usage": {
+  "input_tokens": 236,
+  "output_tokens": 47,
+  "cache_read_input_tokens": 0
+ },
+ "model": "gemini-3.5-flash-lite"
+}

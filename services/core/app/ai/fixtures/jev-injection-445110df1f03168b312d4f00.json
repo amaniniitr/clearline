@@ -1,0 +1,13 @@
+{
+ "backend": "adapter",
+ "model": "gemini-3.5-flash-lite",
+ "degraded": true,
+ "ms": 952,
+ "answers": {
+  "instructs_automation": {
+   "type": "noul",
+   "p": 0.0
+  }
+ },
+ "cost_usd": 0.000157
+}

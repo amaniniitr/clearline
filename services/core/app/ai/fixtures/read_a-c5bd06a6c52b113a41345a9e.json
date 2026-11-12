@@ -1,0 +1,9 @@
+{
+ "text": "{\"document_type\":\"invoice\",\"invoice_number\":\"42\",\"invoice_date\":\"09 Nov 2026\",\"due_date\":\"09 Dec 2026\",\"vendor_name\":\"Initech Office Supplies LLC\",\"vendor_tax_id\":\"61-2223334\",\"po_number\":\"PO-4441\",\"currency\":\"$\",\"subtotal\":\"1,512.00\",\"tax\":null,\"tax_rate\":null,\"freight\":null,\"total\":\"1,512.00\",\"payment_terms\":\"Net 30\",\"remit_iban\":\"GB48MIDL60161377665544\",\"remit_account_number\":null,\"remit_routing_number\":null,\"remit_bank_name\":\"HSBC\",\"service_period\":null,\"original_invoice_ref\":null,\"notes\":null,\"tax_mode\":\"none\",\"lines\":[{\"description\":\"Ergonomic task chair\",\"sku\":\"ST-CHAIR\",\"qty\":\"8\",\"uom\":\"EA\",\"unit_price\":\"189.00\",\"amount\":\"1,512.00\",\"quote\":\"ST-CHAIR Ergonomic task chair 8EA 189.00 1,512.00\"}],\"field_quotes\":[{\"field\":\"invoice_number\",\"quote\":\"42\"},{\"field\":\"invoice_date\",\"quote\":\"09 Nov 2026\"},{\"field\":\"due_date\",\"quote\":\"09 Dec 2026\"},{\"field\":\"payment_terms\",\"quote\":\"Net 30\"},{\"field\":\"vendor_name\",\"quote\":\"Initech Office Supplies LLC\"},{\"field\":\"vendor_tax_id\",\"quote\":\"61-2223334\"},{\"field\":\"po_number\",\"quote\":\"PO-4441\"},{\"field\":\"currency\",\"quote\":\"$\"},{\"field\":\"subtotal\",\"quote\":\"1,512.00\"},{\"field\":\"total\",\"quote\":\"1,512.00\"},{\"field\":\"remit_bank_name\",\"quote\":\"HSBC\"},{\"field\":\"remit_iban\",\"quote\":\"GB48MIDL60161377665544\"}]}",
+ "usage": {
+  "input_tokens": 1905,
+  "output_tokens": 480,
+  "cache_read_input_tokens": 0
+ },
+ "model": "gemini-3.8-flash"
+}

@@ -1,0 +1,9 @@
+{
+ "text": "{\"fields\": [{\"field\": \"invoice_number\", \"value\": null, \"line\": null}, {\"field\": \"invoice_date\", \"value\": null, \"line\": null}, {\"field\": \"due_date\", \"value\": null, \"line\": null}, {\"field\": \"vendor_name\", \"value\": \"northwind components\", \"line\": 0}, {\"field\": \"vendor_tax_id\", \"value\": null, \"line\": null}, {\"field\": \"po_number\", \"value\": null, \"line\": null}, {\"field\": \"currency\", \"value\": \"USD\", \"line\": 15}, {\"field\": \"subtotal\", \"value\": null, \"line\": null}, {\"field\": \"tax\", \"value\": null, \"line\": null}, {\"field\": \"freight\", \"value\": null, \"line\": null}, {\"field\": \"total\", \"value\": \"10,000.00\", \"line\": 15}, {\"field\": \"payment_terms\", \"value\": null, \"line\": null}, {\"field\": \"remit_iban\", \"value\": null, \"line\": null}, {\"field\": \"remit_account_number\", \"value\": null, \"line\": null}, {\"field\": \"remit_routing_number\", \"value\": null, \"line\": null}, {\"field\": \"remit_bank_name\", \"value\": null, \"line\": null}]}",
+ "usage": {
+  "input_tokens": 611,
+  "output_tokens": 313,
+  "cache_read_input_tokens": 0
+ },
+ "model": "gemini-3.5-flash-lite"
+}

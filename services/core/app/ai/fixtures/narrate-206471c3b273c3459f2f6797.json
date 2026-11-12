@@ -1,0 +1,9 @@
+{
+ "text": "This is invoice RM-2026-1187 from Rijnmond Industrietechniek B.V. for \u20ac8,048.10. A review found that while 23 checks passed, the purchase order was inferred because no printed purchase order was found. The invoice is owed and safe to pay in full for \u20ac8,048.10.",
+ "usage": {
+  "input_tokens": 250,
+  "output_tokens": 82,
+  "cache_read_input_tokens": 0
+ },
+ "model": "gemini-3.5-flash-lite"
+}

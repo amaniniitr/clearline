@@ -1,0 +1,9 @@
+{
+ "text": "{\"document_type\":\"invoice\",\"invoice_number\":\"INV-1047\",\"invoice_date\":\"08 Nov 2026\",\"due_date\":\"08 Dec 2026\",\"vendor_name\":\"Acme Supply Co.\",\"vendor_tax_id\":\"84-1234567\",\"po_number\":\"PO-4405\",\"currency\":\"USD\",\"subtotal\":\"1,400.00\",\"tax\":\"112.00\",\"tax_rate\":\"8.00\",\"freight\":null,\"total\":\"1,512.00\",\"payment_terms\":\"Net 30\",\"remit_iban\":\"GB49BUKB60161399887766\",\"remit_account_number\":null,\"remit_routing_number\":null,\"remit_bank_name\":\"NatWest\",\"service_period\":null,\"original_invoice_ref\":null,\"notes\":null,\"tax_mode\":\"exclusive\",\"lines\":[{\"description\":\"Steel mounting bracket M10\",\"sku\":\"BR-M10\",\"qty\":\"100\",\"uom\":\"EA\",\"unit_price\":\"14.00\",\"amount\":\"1,400.00\",\"quote\":\"BR-M10 Steel mounting bracket M10 100 EA 14.00 1,400.00\"}],\"field_quotes\":[{\"field\":\"invoice_number\",\"quote\":\"Invoice No: INV-1047\"},{\"field\":\"invoice_date\",\"quote\":\"Invoice Date: 08 Nov 2026\"},{\"field\":\"due_date\",\"quote\":\"Due Date: 08 Dec 2026\"},{\"field\":\"vendor_name\",\"quote\":\"Acme Supply Co.\"},{\"field\":\"vendor_tax_id\",\"quote\":\"Tax ID (EIN): 84-1234567\"},{\"field\":\"po_number\",\"quote\":\"PO Number: PO-4405\"},{\"field\":\"currency\",\"quote\":\"Total Due (USD): 1,512.00\"},{\"field\":\"subtotal\",\"quote\":\"Subtotal: 1,400.00\"},{\"field\":\"tax\",\"quote\":\"Sales Tax (8.00%): 112.00\"},{\"field\":\"tax_rate\",\"quote\":\"Sales Tax (8.00%): 112.00\"},{\"field\":\"total\",\"quote\":\"Total Due (USD): 1,512.00\"},{\"field\":\"payment_terms\",\"quote\":\"Terms: Net 30\"},{\"field\":\"remit_iban\",\"quote\":\"IBAN:GB49BUKB60161399887766\"},{\"field\":\"remit_bank_name\",\"quote\":\"Bank: NatWest\"}]}",
+ "usage": {
+  "input_tokens": 1934,
+  "output_tokens": 601,
+  "cache_read_input_tokens": 0
+ },
+ "model": "gemini-3.8-flash"
+}

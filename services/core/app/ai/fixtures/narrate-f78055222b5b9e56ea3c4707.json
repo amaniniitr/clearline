@@ -1,0 +1,9 @@
+{
+ "text": "Invoice IN-2291 from Initech Office Supplies LLC is for $2,767.58. All 24 security and accuracy checks passed successfully with no issues found. The full amount of $2,767.58 is approved and will be paid.",
+ "usage": {
+  "input_tokens": 175,
+  "output_tokens": 60,
+  "cache_read_input_tokens": 0
+ },
+ "model": "gemini-3.5-flash-lite"
+}

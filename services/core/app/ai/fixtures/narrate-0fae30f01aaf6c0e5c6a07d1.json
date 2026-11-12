@@ -1,0 +1,9 @@
+{
+ "text": "This is invoice INV-1042 from Acme Supply Co. for $3,952.80. All 24 required checks passed successfully with no issues found. The full amount of $3,952.80 is approved and safe to pay.",
+ "usage": {
+  "input_tokens": 174,
+  "output_tokens": 58,
+  "cache_read_input_tokens": 0
+ },
+ "model": "gemini-3.5-flash-lite"
+}

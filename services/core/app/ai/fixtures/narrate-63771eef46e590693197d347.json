@@ -1,0 +1,9 @@
+{
+ "text": "Invoice IN-2291 from Initech Office Supplies LLC is for $2,767.58. It passed 23 checks, but was held because the message asks to change bank details. Someone needs to call the vendor on the master number to confirm the bank account before paying.",
+ "usage": {
+  "input_tokens": 215,
+  "output_tokens": 62,
+  "cache_read_input_tokens": 0
+ },
+ "model": "gemini-3.5-flash-lite"
+}

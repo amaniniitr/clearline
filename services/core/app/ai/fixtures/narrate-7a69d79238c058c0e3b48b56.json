@@ -1,0 +1,9 @@
+{
+ "text": "Invoice INV-1113 from Acme Supply Co. is for $637.20. All 24 security and accuracy checks passed successfully with no issues found. The full amount of $637.20 is approved and safe to pay.",
+ "usage": {
+  "input_tokens": 170,
+  "output_tokens": 55,
+  "cache_read_input_tokens": 0
+ },
+ "model": "gemini-3.5-flash-lite"
+}

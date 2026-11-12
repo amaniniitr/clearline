@@ -1,0 +1,9 @@
+{
+ "text": "Invoice INV-1106 from Acme Supply Co. is for $977.40. All 24 standard checks passed successfully with no issues found. The full amount is safe to pay and will be processed.",
+ "usage": {
+  "input_tokens": 170,
+  "output_tokens": 47,
+  "cache_read_input_tokens": 0
+ },
+ "model": "gemini-3.5-flash-lite"
+}

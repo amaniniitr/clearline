@@ -1,0 +1,9 @@
+{
+ "text": "{\n  \"requests_bank_change\": 0.0,\n  \"pressure\": {\n    \"0\": 1.0,\n    \"1\": 0.0,\n    \"2\": 0.0\n  },\n  \"doc_type\": {\n    \"invoice\": 0.1,\n    \"credit_note\": 0.0,\n    \"statement\": 0.0,\n    \"proforma\": 0.0,\n    \"purchase_order\": 0.0,\n    \"other\": 0.9\n  }\n}",
+ "usage": {
+  "input_tokens": 506,
+  "output_tokens": 130,
+  "cache_read_input_tokens": 0
+ },
+ "model": "gemini-3.5-flash-lite"
+}

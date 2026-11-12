@@ -1,0 +1,9 @@
+{
+ "text": "Invoice INV-1043 from Acme Supply Co. is for $5,292.00. A review found that the bank details do not match the verified account, the email came from a lookalike domain with a request to change bank details, and the document contains hidden text aimed at automated systems. Payment of $5,292.00 is currently on hold while you call Acme Supply Co. on the vendor-master number (+1 415 555 0142) to confirm the bank account before paying.",
+ "usage": {
+  "input_tokens": 311,
+  "output_tokens": 117,
+  "cache_read_input_tokens": 0
+ },
+ "model": "gemini-3.5-flash-lite"
+}

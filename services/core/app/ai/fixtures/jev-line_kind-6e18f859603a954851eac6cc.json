@@ -1,0 +1,22 @@
+{
+ "backend": "adapter",
+ "model": "gemini-3.5-flash-lite",
+ "degraded": true,
+ "ms": 1225,
+ "answers": {
+  "line_kind": {
+   "type": "choice",
+   "label": "goods",
+   "p": 0.99,
+   "probs": {
+    "goods": 0.99,
+    "service": 0.0,
+    "freight": 0.0,
+    "fee": 0.0,
+    "discount": 0.0,
+    "tax": 0.01
+   }
+  }
+ },
+ "cost_usd": 0.000269
+}

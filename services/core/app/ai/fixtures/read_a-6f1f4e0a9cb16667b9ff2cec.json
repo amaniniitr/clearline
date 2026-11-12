@@ -1,0 +1,9 @@
+{
+ "text": "{\"document_type\":\"invoice\",\"invoice_number\":\"NW-7781\",\"invoice_date\":\"08 Nov 2026\",\"due_date\":\"23 Dec 2026\",\"vendor_name\":\"northwind components\",\"vendor_tax_id\":\"27-5551234\",\"po_number\":\"PO-4420\",\"currency\":\"$\",\"subtotal\":\"10,000.00\",\"tax\":null,\"tax_rate\":null,\"freight\":null,\"total\":\"10,000.00\",\"payment_terms\":\"Net 45\",\"remit_iban\":\"GB31BARC60161320201555\",\"remit_account_number\":null,\"remit_routing_number\":null,\"remit_bank_name\":\"Barclays\",\"service_period\":null,\"original_invoice_ref\":null,\"notes\":null,\"tax_mode\":\"none\",\"lines\":[{\"description\":\"Motor controller board v2\",\"sku\":\"NW-CTRL2\",\"qty\":\"100\",\"uom\":\"EA\",\"unit_price\":\"100.00\",\"amount\":\"10,000.00\",\"quote\":\"NW-CTRL2 Motor controller board v2 100EA 100.00 10,000.00\"}],\"field_quotes\":[{\"field\":\"invoice_number\",\"quote\":\"NW-7781\"},{\"field\":\"invoice_date\",\"quote\":\"08 Nov 2026\"},{\"field\":\"due_date\",\"quote\":\"23 Dec 2026\"},{\"field\":\"vendor_name\",\"quote\":\"northwind components\"},{\"field\":\"vendor_tax_id\",\"quote\":\"EIN 27-5551234\"},{\"field\":\"po_number\",\"quote\":\"PO-4420\"},{\"field\":\"currency\",\"quote\":\"$10,000.00\"},{\"field\":\"subtotal\",\"quote\":\"$10,000.00\"},{\"field\":\"total\",\"quote\":\"$10,000.00\"},{\"field\":\"payment_terms\",\"quote\":\"Net 45\"},{\"field\":\"remit_bank_name\",\"quote\":\"Barclays\"},{\"field\":\"remit_iban\",\"quote\":\"GB31BARC60161320201555\"}]}",
+ "usage": {
+  "input_tokens": 1934,
+  "output_tokens": 510,
+  "cache_read_input_tokens": 0
+ },
+ "model": "gemini-3.8-flash"
+}

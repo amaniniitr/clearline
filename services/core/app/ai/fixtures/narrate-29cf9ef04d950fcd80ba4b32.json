@@ -1,0 +1,9 @@
+{
+ "text": "This invoice from Acme Supply Co. is for $1,512.00 under number INV-1047. A review showed that bank account \u2022\u2022\u2022\u20227766 is not the verified account \u2022\u2022\u2022\u20226819. Payment is on hold pending a phone call to Acme Supply Co. at +1 415 555 0142 to confirm the bank account.",
+ "usage": {
+  "input_tokens": 269,
+  "output_tokens": 88,
+  "cache_read_input_tokens": 0
+ },
+ "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,9 @@
+{
+ "text": "This is an invoice from Initech Office Supplies LLC for $584.55. A review found that the invoice number is missing, the currency and total could not be confirmed, and the message asks to change bank details. Payment is currently on hold while we call the vendor on the official number to confirm the bank account.",
+ "usage": {
+  "input_tokens": 225,
+  "output_tokens": 67,
+  "cache_read_input_tokens": 0
+ },
+ "model": "gemini-3.5-flash-lite"
+}

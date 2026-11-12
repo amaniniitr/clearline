@@ -1,0 +1,9 @@
+{
+ "text": "This invoice is from Acme Supply Co. for $1,004.40 under number INV-1200. It passed all 24 automated checks successfully. The full amount of $1,004.40 is approved for payment with nothing held back.",
+ "usage": {
+  "input_tokens": 174,
+  "output_tokens": 59,
+  "cache_read_input_tokens": 0
+ },
+ "model": "gemini-3.5-flash-lite"
+}

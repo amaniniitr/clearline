@@ -1,0 +1,9 @@
+{
+ "text": "{\"fields\": [{\"field\": \"invoice_number\", \"value\": \"INV-1105\", \"line\": 3}, {\"field\": \"invoice_date\", \"value\": \"20 Oct 2026\", \"line\": 5}, {\"field\": \"due_date\", \"value\": \"19 Nov 2026\", \"line\": 7}, {\"field\": \"vendor_name\", \"value\": \"Acme Supply Co.\", \"line\": 0}, {\"field\": \"vendor_tax_id\", \"value\": \"84-1234567\", \"line\": 6}, {\"field\": \"po_number\", \"value\": \"PO-4499\", \"line\": 10}, {\"field\": \"currency\", \"value\": \"USD\", \"line\": 26}, {\"field\": \"subtotal\", \"value\": \"680.00\", \"line\": 24}, {\"field\": \"tax\", \"value\": \"54.40\", \"line\": 25}, {\"field\": \"freight\", \"value\": null, \"line\": null}, {\"field\": \"total\", \"value\": \"734.40\", \"line\": 26}, {\"field\": \"payment_terms\", \"value\": \"Net 30\", \"line\": 9}, {\"field\": \"remit_iban\", \"value\": \"GB29NWBK60161331926819\", \"line\": 30}, {\"field\": \"remit_account_number\", \"value\": null, \"line\": null}, {\"field\": \"remit_routing_number\", \"value\": null, \"line\": null}, {\"field\": \"remit_bank_name\", \"value\": \"NatWest\", \"line\": 28}]}",
+ "usage": {
+  "input_tokens": 862,
+  "output_tokens": 401,
+  "cache_read_input_tokens": 0
+ },
+ "model": "gemini-3.5-flash-lite"
+}

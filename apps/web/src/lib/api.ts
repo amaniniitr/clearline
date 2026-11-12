@@ -1,4 +1,4 @@
-export const API = process.env.NEXT_PUBLIC_API ?? "http://localhost:8000";
+export const API = process.env.NEXT_PUBLIC_API ?? "";
 
 export async function get<T = any>(path: string): Promise<T> {
   const r = await fetch(`${API}${path}`, { cache: "no-store" });

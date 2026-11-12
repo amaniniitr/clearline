@@ -10,6 +10,15 @@ const nextConfig: NextConfig = {
       },
     },
   },
+  async rewrites() {
+    const backend = process.env.NEXT_PUBLIC_API || "https://de57e790d6bca0.lhr.life";
+    return [
+      {
+        source: "/api/:path*",
+        destination: `${backend}/api/:path*`,
+      },
+    ];
+  },
 };
 
 export default nextConfig;

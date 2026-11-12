@@ -1,0 +1,137 @@
+[
+  {
+    "id": "S01",
+    "title": "Acme routine invoice 1 of 14",
+    "file": "S01.pdf",
+    "story": "Routine consumables on blanket PO-4499.",
+    "expected": [
+      "AUTO_APPROVE"
+    ]
+  },
+  {
+    "id": "S02",
+    "title": "Acme routine invoice 2 of 14",
+    "file": "S02.pdf",
+    "story": "Routine consumables on blanket PO-4499.",
+    "expected": [
+      "AUTO_APPROVE"
+    ]
+  },
+  {
+    "id": "S03",
+    "title": "Acme routine invoice 3 of 14",
+    "file": "S03.pdf",
+    "story": "Routine consumables on blanket PO-4499.",
+    "expected": [
+      "AUTO_APPROVE"
+    ]
+  },
+  {
+    "id": "S04",
+    "title": "Acme routine invoice 4 of 14",
+    "file": "S04.pdf",
+    "story": "Routine consumables on blanket PO-4499.",
+    "expected": [
+      "AUTO_APPROVE"
+    ]
+  },
+  {
+    "id": "S05",
+    "title": "Acme routine invoice 5 of 14",
+    "file": "S05.pdf",
+    "story": "Routine consumables on blanket PO-4499.",
+    "expected": [
+      "AUTO_APPROVE"
+    ]
+  },
+  {
+    "id": "S06",
+    "title": "Acme routine invoice 6 of 14",
+    "file": "S06.pdf",
+    "story": "Routine consumables on blanket PO-4499.",
+    "expected": [
+      "AUTO_APPROVE"
+    ]
+  },
+  {
+    "id": "S07",
+    "title": "Acme routine invoice 7 of 14",
+    "file": "S07.pdf",
+    "story": "Routine consumables on blanket PO-4499.",
+    "expected": [
+      "AUTO_APPROVE"
+    ]
+  },
+  {
+    "id": "S08",
+    "title": "Acme routine invoice 8 of 14",
+    "file": "S08.pdf",
+    "story": "Routine consumables on blanket PO-4499.",
+    "expected": [
+      "AUTO_APPROVE"
+    ]
+  },
+  {
+    "id": "S09",
+    "title": "Acme routine invoice 9 of 14",
+    "file": "S09.pdf",
+    "story": "Routine consumables on blanket PO-4499.",
+    "expected": [
+      "AUTO_APPROVE"
+    ]
+  },
+  {
+    "id": "S10",
+    "title": "Acme routine invoice 10 of 14",
+    "file": "S10.pdf",
+    "story": "Routine consumables on blanket PO-4499.",
+    "expected": [
+      "AUTO_APPROVE"
+    ]
+  },
+  {
+    "id": "S11",
+    "title": "Acme routine invoice 11 of 14",
+    "file": "S11.pdf",
+    "story": "Routine consumables on blanket PO-4499.",
+    "expected": [
+      "AUTO_APPROVE"
+    ]
+  },
+  {
+    "id": "S12",
+    "title": "Acme routine invoice 12 of 14",
+    "file": "S12.pdf",
+    "story": "Routine consumables on blanket PO-4499.",
+    "expected": [
+      "AUTO_APPROVE"
+    ]
+  },
+  {
+    "id": "S13",
+    "title": "Acme routine invoice 13 of 14",
+    "file": "S13.pdf",
+    "story": "Routine consumables on blanket PO-4499.",
+    "expected": [
+      "AUTO_APPROVE"
+    ]
+  },
+  {
+    "id": "S14",
+    "title": "Acme routine invoice 14 of 14",
+    "file": "S14.pdf",
+    "story": "Routine consumables on blanket PO-4499.",
+    "expected": [
+      "AUTO_APPROVE"
+    ]
+  },
+  {
+    "id": "L2",
+    "title": "Acme switches to a new template",
+    "file": "L2.pdf",
+    "story": "Same vendor, same PO, new invoice design. The learned layout no longer fits, so Clearline does a full read.",
+    "expected": [
+      "AUTO_APPROVE"
+    ]
+  }
+]

@@ -1,0 +1,395 @@
+{
+  "at": "2026-11-12T15:26:54.320468+00:00",
+  "n": 11,
+  "passed": 11,
+  "decision_accuracy": 1.0,
+  "verified_but_wrong": 0,
+  "results": [
+    {
+      "id": "H1",
+      "outcome": "AUTO_APPROVE",
+      "expected": [
+        "AUTO_APPROVE"
+      ],
+      "pass": true,
+      "checks": {
+        "outcome": true
+      },
+      "fields": {
+        "invoice_number": true,
+        "total": true,
+        "po_number": true
+      },
+      "verified_but_wrong": [],
+      "cost_usd": 0.00618,
+      "tier": "T3",
+      "question": null,
+      "amount_payable": "3952.80",
+      "amount_held": "0.00",
+      "ms": 422
+    },
+    {
+      "id": "E1",
+      "outcome": "HOLD",
+      "expected": [
+        "HOLD"
+      ],
+      "pass": true,
+      "checks": {
+        "outcome": true,
+        "owner": true,
+        "safe_to_pay": true,
+        "owed": true
+      },
+      "fields": {
+        "invoice_number": true,
+        "total": true
+      },
+      "verified_but_wrong": [],
+      "cost_usd": 0.00632,
+      "tier": "T3",
+      "question": "Call Acme Supply Co. on the vendor-master number (+1 415 555 0142) to confirm the bank account before paying?",
+      "amount_payable": "5292.00",
+      "amount_held": "0.00",
+      "ms": 6615
+    },
+    {
+      "id": "E2",
+      "outcome": "HOLD",
+      "expected": [
+        "HOLD"
+      ],
+      "pass": true,
+      "checks": {
+        "outcome": true,
+        "sub_status": true,
+        "amount_payable": true,
+        "amount_held": true
+      },
+      "fields": {
+        "invoice_number": true,
+        "total": true
+      },
+      "verified_but_wrong": [],
+      "cost_usd": 0.00511,
+      "tier": "T3",
+      "question": "Pay $6,000.00 now for what was received and release $4,000.00 automatically when the rest arrives?",
+      "amount_payable": "6000.00",
+      "amount_held": "4000.00",
+      "ms": 2431
+    },
+    {
+      "id": "E3",
+      "outcome": "HOLD",
+      "expected": [
+        "HOLD"
+      ],
+      "pass": true,
+      "checks": {
+        "outcome": true,
+        "owner": true,
+        "amount_payable": true,
+        "amount_held": true
+      },
+      "fields": {
+        "invoice_number": true,
+        "total": true
+      },
+      "verified_but_wrong": [],
+      "cost_usd": 0.0055,
+      "tier": "T3",
+      "question": "Pay $3,000.00 (the remaining PO balance) and ask procurement to amend PO-4430 for the other $1,500.00?",
+      "amount_payable": "3000.00",
+      "amount_held": "1500.00",
+      "ms": 4734
+    },
+    {
+      "id": "E4",
+      "outcome": "REVIEW",
+      "expected": [
+        "REVIEW"
+      ],
+      "pass": true,
+      "checks": {
+        "outcome": true
+      },
+      "fields": {
+        "invoice_number": true,
+        "total": true
+      },
+      "verified_but_wrong": [],
+      "cost_usd": 0.00913,
+      "tier": "T3",
+      "question": "Confirm PO-4460? No PO was printed; it is the only open PO that matches all 3 lines (prices and quantities checked net of VAT).",
+      "amount_payable": "8048.10",
+      "amount_held": "0.00",
+      "ms": 5457
+    },
+    {
+      "id": "G1",
+      "outcome": "AUTO_APPROVE",
+      "expected": [
+        "AUTO_APPROVE"
+      ],
+      "pass": true,
+      "checks": {
+        "outcome": true
+      },
+      "fields": {
+        "invoice_number": true,
+        "total": true
+      },
+      "verified_but_wrong": [],
+      "cost_usd": 0.00563,
+      "tier": "T3",
+      "question": null,
+      "amount_payable": "1156400.00",
+      "amount_held": "0.00",
+      "ms": 2544
+    },
+    {
+      "id": "B1",
+      "outcome": "HOLD",
+      "expected": [
+        "HOLD"
+      ],
+      "pass": true,
+      "checks": {
+        "outcome": true
+      },
+      "fields": {
+        "total": true
+      },
+      "verified_but_wrong": [],
+      "cost_usd": 0.00515,
+      "tier": "T3",
+      "question": "Send the drafted email asking Initech Office Supplies LLC for the missing invoice number?",
+      "amount_payable": "584.55",
+      "amount_held": "0.00",
+      "ms": 2408
+    },
+    {
+      "id": "B2",
+      "outcome": "AUTO_APPROVE",
+      "expected": [
+        "AUTO_APPROVE"
+      ],
+      "pass": true,
+      "checks": {
+        "outcome": true
+      },
+      "fields": {
+        "invoice_number": true,
+        "total": true
+      },
+      "verified_but_wrong": [],
+      "cost_usd": 0.00597,
+      "tier": "T3",
+      "question": null,
+      "amount_payable": "2767.58",
+      "amount_held": "0.00",
+      "ms": 2937
+    },
+    {
+      "id": "B3",
+      "outcome": "REJECT",
+      "expected": [
+        "REJECT"
+      ],
+      "pass": true,
+      "checks": {
+        "outcome": true
+      },
+      "fields": {
+        "invoice_number": true,
+        "total": true
+      },
+      "verified_but_wrong": [],
+      "cost_usd": 0.00499,
+      "tier": "T3",
+      "question": "Reject as a duplicate of INV-0042 and send the drafted notice to Initech Office Supplies LLC?",
+      "amount_payable": "0.00",
+      "amount_held": "0.00",
+      "ms": 21056
+    },
+    {
+      "id": "B4",
+      "outcome": "NOT_AN_INVOICE",
+      "expected": [
+        "NOT_AN_INVOICE"
+      ],
+      "pass": true,
+      "checks": {
+        "outcome": true
+      },
+      "fields": {},
+      "verified_but_wrong": [],
+      "cost_usd": 0.00391,
+      "tier": "T3",
+      "question": "File this statement for reconciliation? No payment is needed.",
+      "amount_payable": "0.00",
+      "amount_held": "0.00",
+      "ms": 167
+    },
+    {
+      "id": "B6",
+      "outcome": "HOLD",
+      "expected": [
+        "HOLD"
+      ],
+      "pass": true,
+      "checks": {
+        "outcome": true,
+        "owner": true,
+        "safe_to_pay": true
+      },
+      "fields": {
+        "invoice_number": true
+      },
+      "verified_but_wrong": [],
+      "cost_usd": 0.00621,
+      "tier": "T3",
+      "question": "The visible bank details differ from the file's hidden text. Treat as tampering and contact Acme Supply Co.?",
+      "amount_payable": "1512.00",
+      "amount_held": "0.00",
+      "ms": 17452
+    }
+  ],
+  "series": [
+    {
+      "id": "S01",
+      "outcome": "AUTO_APPROVE",
+      "tier": "T3",
+      "cost_usd": 0.00686,
+      "read_ms": 3,
+      "learn": "Template agreed with the verified reading (1 in a row; 2 more to promote)",
+      "pass": true
+    },
+    {
+      "id": "S02",
+      "outcome": "AUTO_APPROVE",
+      "tier": "T3",
+      "cost_usd": 0.00532,
+      "read_ms": 3,
+      "learn": "Template agreed with the verified reading (2 in a row; 1 more to promote)",
+      "pass": true
+    },
+    {
+      "id": "S03",
+      "outcome": "AUTO_APPROVE",
+      "tier": "T3",
+      "cost_usd": 0.00528,
+      "read_ms": 3,
+      "learn": "Layout promoted to T2 \u2014 next invoices from this layout read with a template plus a cheap cross-check",
+      "pass": true
+    },
+    {
+      "id": "S04",
+      "outcome": "AUTO_APPROVE",
+      "tier": "T2",
+      "cost_usd": 0.00175,
+      "read_ms": 2,
+      "learn": "Template agreed with the verified reading (1 in a row; 9 more to promote)",
+      "pass": true
+    },
+    {
+      "id": "S05",
+      "outcome": "AUTO_APPROVE",
+      "tier": "T2",
+      "cost_usd": 0.00172,
+      "read_ms": 2,
+      "learn": "Template agreed with the verified reading (2 in a row; 8 more to promote)",
+      "pass": true
+    },
+    {
+      "id": "S06",
+      "outcome": "AUTO_APPROVE",
+      "tier": "T2",
+      "cost_usd": 0.00126,
+      "read_ms": 2,
+      "learn": "Template agreed with the verified reading (3 in a row; 7 more to promote)",
+      "pass": true
+    },
+    {
+      "id": "S07",
+      "outcome": "AUTO_APPROVE",
+      "tier": "T2",
+      "cost_usd": 0.00174,
+      "read_ms": 3,
+      "learn": "Template agreed with the verified reading (4 in a row; 6 more to promote)",
+      "pass": true
+    },
+    {
+      "id": "S08",
+      "outcome": "AUTO_APPROVE",
+      "tier": "T2",
+      "cost_usd": 0.00105,
+      "read_ms": 2,
+      "learn": "Template agreed with the verified reading (5 in a row; 5 more to promote)",
+      "pass": true
+    },
+    {
+      "id": "S09",
+      "outcome": "AUTO_APPROVE",
+      "tier": "T2",
+      "cost_usd": 0.00174,
+      "read_ms": 2,
+      "learn": "Template agreed with the verified reading (6 in a row; 4 more to promote)",
+      "pass": true
+    },
+    {
+      "id": "S10",
+      "outcome": "AUTO_APPROVE",
+      "tier": "T2",
+      "cost_usd": 0.00175,
+      "read_ms": 2,
+      "learn": "Template agreed with the verified reading (7 in a row; 3 more to promote)",
+      "pass": true
+    },
+    {
+      "id": "S11",
+      "outcome": "AUTO_APPROVE",
+      "tier": "T2",
+      "cost_usd": 0.00174,
+      "read_ms": 2,
+      "learn": "Template agreed with the verified reading (8 in a row; 2 more to promote)",
+      "pass": true
+    },
+    {
+      "id": "S12",
+      "outcome": "AUTO_APPROVE",
+      "tier": "T2",
+      "cost_usd": 0.00174,
+      "read_ms": 2,
+      "learn": "Template agreed with the verified reading (9 in a row; 1 more to promote)",
+      "pass": true
+    },
+    {
+      "id": "S13",
+      "outcome": "AUTO_APPROVE",
+      "tier": "T2",
+      "cost_usd": 0.00106,
+      "read_ms": 2,
+      "learn": "Layout promoted to T1 \u2014 next invoices from this layout read by template only (1 in 10 audited)",
+      "pass": true
+    },
+    {
+      "id": "S14",
+      "outcome": "AUTO_APPROVE",
+      "tier": "T1",
+      "cost_usd": 0.0,
+      "read_ms": 2,
+      "learn": "Nothing new to learn",
+      "pass": true
+    },
+    {
+      "id": "L2",
+      "outcome": "AUTO_APPROVE",
+      "tier": "T3",
+      "cost_usd": 0.00642,
+      "read_ms": 2,
+      "learn": "New layout learned for this vendor (9 fields + line table), in shadow mode",
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "H1": {
+    "outcomes": [
+      "AUTO_APPROVE"
+    ],
+    "fields": {
+      "invoice_number": "INV-1042",
+      "total": "3952.80",
+      "po_number": "PO-4404"
+    },
+    "file": "H1.pdf",
+    "title": "Clean invoice, fully received",
+    "layout": "acme_classic",
+    "computed": {
+      "subtotal": "3660.00",
+      "tax": "292.80",
+      "freight": "0",
+      "total": "3952.80",
+      "rate": "8.00"
+    }
+  },
+  "E1": {
+    "outcomes": [
+      "HOLD"
+    ],
+    "owner": "controller",
+    "safe_to_pay": "no",
+    "owed": "yes",
+    "fields": {
+      "invoice_number": "INV-1043",
+      "total": "5292.00"
+    },
+    "file": "E1.eml",
+    "title": "Valid invoice, unsafe payment",
+    "layout": "acme_classic",
+    "computed": {
+      "subtotal": "4900.00",
+      "tax": "392.00",
+      "freight": "0",
+      "total": "5292.00",
+      "rate": "8.00"
+    }
+  },
+  "E2": {
+    "outcomes": [
+      "HOLD"
+    ],
+    "sub_status": "awaiting_receipt",
+    "amount_payable": "6000.00",
+    "amount_held": "4000.00",
+    "fields": {
+      "invoice_number": "NW-7781",
+      "total": "10000.00"
+    },
+    "file": "E2.pdf",
+    "title": "Partial delivery",
+    "layout": "northwind",
+    "computed": {
+      "subtotal": "10000.00",
+      "tax": "0.00",
+      "freight": "0",
+      "total": "10000.00",
+      "rate": "0"
+    }
+  },
+  "E3": {
+    "outcomes": [
+      "HOLD"
+    ],
+    "owner": "procurement",
+    "amount_payable": "3000.00",
+    "amount_held": "1500.00",
+    "fields": {
+      "invoice_number": "GX-503",
+      "total": "4500.00"
+    },
+    "file": "E3.pdf",
+    "title": "Split-PO overrun",
+    "layout": "globex",
+    "computed": {
+      "subtotal": "4500.00",
+      "tax": "0.00",
+      "freight": "0",
+      "total": "4500.00",
+      "rate": "0"
+    }
+  },
+  "E4": {
+    "outcomes": [
+      "REVIEW"
+    ],
+    "fields": {
+      "invoice_number": "RM-2026-1187",
+      "total": "8048.10"
+    },
+    "file": "E4.jpg",
+    "title": "Phone photo, PO implied, VAT included",
+    "layout": "eu_vat",
+    "computed": {
+      "subtotal": "8048.10",
+      "tax": "1396.78",
+      "freight": "0",
+      "total": "8048.10",
+      "rate": "21"
+    }
+  },
+  "G1": {
+    "outcomes": [
+      "AUTO_APPROVE"
+    ],
+    "fields": {
+      "invoice_number": "SF/26-27/0412",
+      "total": "1156400.00"
+    },
+    "file": "G1.pdf",
+    "title": "Indian GST invoice (English + Hindi)",
+    "layout": "gst_bilingual",
+    "computed": {
+      "subtotal": "980000.00",
+      "tax": "176400.00",
+      "freight": "0",
+      "total": "1156400.00",
+      "rate": "18"
+    }
+  },
+  "B1": {
+    "outcomes": [
+      "HOLD"
+    ],
+    "fields": {
+      "total": "584.55"
+    },
+    "file": "B1.pdf",
+    "title": "Scanned, no invoice number",
+    "layout": "initech",
+    "computed": {
+      "subtotal": "540.00",
+      "tax": "44.55",
+      "freight": "0",
+      "total": "584.55",
+      "rate": "8.25"
+    }
+  },
+  "B2": {
+    "outcomes": [
+      "AUTO_APPROVE"
+    ],
+    "fields": {
+      "invoice_number": "IN-2291",
+      "total": "2767.58"
+    },
+    "file": "B2.pdf",
+    "title": "Close but not exact",
+    "layout": "initech",
+    "computed": {
+      "subtotal": "2519.70",
+      "tax": "207.88",
+      "freight": "40.00",
+      "total": "2767.58",
+      "rate": "8.25"
+    }
+  },
+  "B3": {
+    "outcomes": [
+      "REJECT"
+    ],
+    "fields": {
+      "invoice_number": "42",
+      "total": "1512.00"
+    },
+    "file": "B3.pdf",
+    "title": "Duplicate, reformatted",
+    "layout": "northwind",
+    "computed": {
+      "subtotal": "1512.00",
+      "tax": "0.00",
+      "freight": "0",
+      "total": "1512.00",
+      "rate": "0"
+    }
+  },
+  "B4": {
+    "outcomes": [
+      "NOT_AN_INVOICE"
+    ],
+    "file": "B4.pdf",
+    "title": "Statement of account",
+    "layout": "statement",
+    "computed": {}
+  },
+  "B6": {
+    "outcomes": [
+      "HOLD"
+    ],
+    "owner": "controller",
+    "safe_to_pay": "no",
+    "fields": {
+      "invoice_number": "INV-1047"
+    },
+    "file": "B6.pdf",
+    "title": "Tampered PDF",
+    "layout": "acme_classic",
+    "computed": {
+      "subtotal": "1400.00",
+      "tax": "112.00",
+      "freight": "0",
+      "total": "1512.00",
+      "rate": "8.00"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+databases:
+  - name: clearline-db
+    plan: free
+    databaseName: clearline
+    user: clearline
+
+services:
+  - type: web
+    name: clearline-api
+    runtime: docker
+    plan: starter
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/health
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: clearline-db
+          property: connectionString
+      - key: AI_MODE
+        value: auto
+      - key: MODEL_PROVIDER
+        value: gemini
+      - key: CORS_ORIGIN_REGEX
+        value: https://.*\.vercel\.app
+      - key: VERTEX_API_KEY
+        sync: false

@@ -1,0 +1,11 @@
+.git
+.venv
+apps/web/node_modules
+apps/web/.next
+var
+__pycache__
+*.pyc
+.env
+**/.env
+.DS_Store
+**/.DS_Store

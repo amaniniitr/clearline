@@ -183,12 +183,13 @@ def run_demo():
         # SCENE 1: Introduction & How It Works (0:00 - 0:25)
         # -------------------------------------------------------------
         print_banner(
-            "SCENE 1: Introduction & How It Works",
+            "SCENE 1: Introduction & The Self-Learning Hook",
             start_time,
             total_target,
-            "AP teams open every invoice, find the purchase order, check the numbers, and decide. "
-            "Clearline automates this end-to-end, while separating two fundamental questions: "
-            "do we owe this, and is it safe to pay where they ask?"
+            "Most AP automation breaks the moment an invoice shifts. Clearline is an intelligent "
+            "decision engine that learns on its own: repeat vendors automatically train zero-cost "
+            "templates, while every invoice strictly isolates two questions: do we owe this, "
+            "and is it safe to pay where they ask?"
         )
         page.goto(f"{WEB}/how")
         inject_custom_cursor(page)

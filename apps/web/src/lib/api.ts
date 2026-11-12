@@ -1,4 +1,7 @@
-export const API = process.env.NEXT_PUBLIC_API ?? "";
+export const API =
+  typeof window !== "undefined" && (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1")
+    ? "http://localhost:8000"
+    : "";
 
 export async function get<T = any>(path: string): Promise<T> {
   const r = await fetch(`${API}${path}`, { cache: "no-store" });

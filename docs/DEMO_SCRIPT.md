@@ -11,7 +11,7 @@
 
 | Time | What to show | What to say |
 |---|---|---|
-| 0:00 | **How it works** page | "AP teams open every invoice, find the PO, check the numbers and decide. Clearline does that, and answers two questions separately: do we owe this, and is it safe to pay where they ask." |
+| 0:00 | **How it works** page | "Most AP automation breaks the moment an invoice shifts. Clearline is an intelligent decision engine that learns on its own: repeat vendors automatically train zero-cost templates, while every invoice strictly isolates two questions: do we owe this, and is it safe to pay where they ask." |
 | 0:30 | Run **H1** | Point at the stage rail as it fills. "It reads the invoice twice, independently, and highlights where each value sits on the page. Green means Verified: found on the page and confirmed another way." Then show the decision card: auto-approved, bill posted, read-back OK. |
 | 1:30 | Run **E1** (the email) | "This one matches the PO perfectly. A plain PO match would pay it." Point at Screen: new bank account, sender `acme-supp1y.com`, Reply-To on Gmail. Point at Judge: bank-change request, pressure, text aimed at automated systems. Decision card: **Owed: yes · Safe: no**. The one question goes to the controller: call back on the master-data number, never the number in the email. Switch the role to AP clerk and click Approve. The server refuses. |
 | 2:45 | Run **E2** | "Billed 100, received 60." Show the PO / receipts table with the shortfall highlighted, the agent's tool calls, $6,000 payable and $4,000 held. As AP clerk, **short-pay** $6,000. Go to **Queue → Simulate: receiving posts GRN-883**. A child run re-matches and posts the remaining $4,000 by itself. |
